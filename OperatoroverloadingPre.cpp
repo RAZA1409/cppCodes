@@ -15,8 +15,6 @@ class Counter{
 };
 int main(){
     Counter c(10);
-    // Counter old =c++;
     ++c;
-    // old.show();
     c.show();
 }
