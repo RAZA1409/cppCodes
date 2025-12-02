@@ -3,6 +3,7 @@
 #include<string>
 using namespace std;
 int main(){
+    //read from file newfile.txt
     ifstream fin("newfile.txt");
     if(!fin){
         cerr<<"Cannot be able to read file\n";

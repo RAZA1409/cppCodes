@@ -20,6 +20,4 @@ int main() {
     }
     cout << "Total number of words: " << wordCount << endl;
 
-    ifile.close();
-    return 0;
-}
+    ifile.close(); }
