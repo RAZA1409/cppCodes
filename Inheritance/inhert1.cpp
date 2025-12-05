@@ -29,6 +29,6 @@ int main(){
     Devloper dev;
     dev.code();
     dev.work();
-    dev.show_Salary();
+    dev.show_Salary();  //protected derived class mai accessible hoga
     return 0;
 }
