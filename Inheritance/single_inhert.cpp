@@ -6,10 +6,7 @@ class Employee{
     void work(){
         cout<<"Employee Working in Base Class"<<endl;
     }
-// protected:
-//     int salary=200;
-// private:
-//     int age=20;
+
 };
 
 class Devloper:public Employee{
@@ -18,17 +15,12 @@ void code(){
     cout<<"Devloper writes code in Derived Class"<<endl;
 }
 
-void show_Salary(){
-    cout<<"Employee Salary is "<<salary<<endl;
-}
-
 };
 int main(){
-    Employee e;
-    e.work();
     Devloper dev;
-    dev.code();
     dev.work();
-    dev.show_Salary();  //protected derived class mai accessible hoga
+    dev.code();
+   
+   
     return 0;
 }
