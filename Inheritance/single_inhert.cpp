@@ -12,7 +12,7 @@ class Employee{
 class Devloper:public Employee{
 public:
 void code(){
-    cout<<"Devloper writes code in Derived Class"<<endl;
+    cout<<"Devloper writes code in Devloper Class"<<endl;
 }
 
 };
